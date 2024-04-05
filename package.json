@@ -1,0 +1,40 @@
+{
+  "name": "orden_todo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "initDb": "npx ts-node ./lib/db"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "@tanstack/react-table": "^8.15.3",
+    "@types/sqlite3": "^3.1.11",
+    "@vercel/postgres": "^0.8.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "express": "^4.19.2",
+    "lucide-react": "^0.364.0",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
